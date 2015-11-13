@@ -58,8 +58,8 @@
 #import "MedicineViewController.h"
 #import "MedicineSearchResultViewController.h"
 #import "MedicineDetailViewController.h"
-#import "drugstoreViewController.h"
-#import "ContantMedicineViewController.h"
+
+
 
 
 

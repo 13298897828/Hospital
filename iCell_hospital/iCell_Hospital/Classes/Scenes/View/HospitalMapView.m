@@ -38,7 +38,7 @@
     
     _mapView.showsUserLocation  = YES;
     [_mapView setUserTrackingMode:MAUserTrackingModeFollow];
-    _mapView.zoomLevel = 10;
+    _mapView.zoomLevel = 15;
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         _locationManager = [[CLLocationManager alloc] init];

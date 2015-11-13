@@ -94,7 +94,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="xian" width="512" height="512"/>
+        <image name="xian" width="88" height="88"/>
         <image name="yiyuan1" width="88" height="88"/>
         <image name="yiyuan2" width="88" height="88"/>
     </resources>

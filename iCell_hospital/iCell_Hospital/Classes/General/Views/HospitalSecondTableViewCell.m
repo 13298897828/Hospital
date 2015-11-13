@@ -18,6 +18,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *hosLevelLabel;
 @property (strong, nonatomic) IBOutlet UILabel *hosMtypeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *hosDistanceLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *yibaoImageView;
+@property (strong, nonatomic) IBOutlet UIImageView *levelImageView;
 
 
 @property(nonatomic,strong)HospitalMapView *map;
@@ -37,7 +39,27 @@
     self.hosNameLabel.text =hospital.name;
     
     self.hosLevelLabel.text = hospital.level;
-    
+    if ([hospital.level rangeOfString:@"三级甲等"].location != NSNotFound) {
+        self.levelImageView.hidden = NO;
+        self.levelImageView.image = [UIImage imageNamed:@"sanjia"];
+        self.hosLevelLabel.hidden = YES;
+    }
+    else if ([hospital.level rangeOfString:@"二级甲等"].location != NSNotFound){
+        self.levelImageView.hidden = NO;
+        self.levelImageView.image = [UIImage imageNamed:@"erjia"];
+        self.hosLevelLabel.hidden = YES;
+    }
+    else{
+        self.hosLevelLabel.hidden = NO;
+        self.levelImageView.hidden = YES;
+    }
+    if ([hospital.mtype rangeOfString:@"居民医保"].location !=NSNotFound) {
+        self.yibaoImageView.hidden = NO;
+        self.hosMtypeLabel.hidden = YES;
+    }else{
+        self.yibaoImageView.hidden = YES;
+        self.hosMtypeLabel.hidden = NO;
+    }
     self.hosMtypeLabel.text = hospital.mtype;
     
     MAMapPoint point1 = MAMapPointForCoordinate(CLLocationCoordinate2DMake([hospital.y doubleValue], [hospital.x doubleValue]));

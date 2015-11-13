@@ -54,7 +54,7 @@ static NSString *const searchTableID = @"searchTableID";
 
 - (void)requestData{
     
-    NSString *httpArg = @"id=151&page=1&rows=20";
+    NSString *httpArg = @"id=151&page=1&rows=40";
     [[HospitalHelper sharedHospitalHelper] requestHttpUrl:kListhttpUrl withHttpArg:httpArg success:^(id data) {
         
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
@@ -75,12 +75,7 @@ static NSString *const searchTableID = @"searchTableID";
     }];
 }
 
-- (IBAction)nearHospitalAction:(UIBarButtonItem *)sender {
-    
-    
-    [self.navigationController pushViewController:[HospitalMapViewController new] animated:YES];
-    
-}
+
 
 
 #pragma mark tableView协议方法
@@ -110,7 +105,7 @@ static NSString *const searchTableID = @"searchTableID";
         return self.dataArray.count;
     }
     if (section == 1) {
-        return 1;
+        return self.dataArray.count;
     }
     return  self.hospitalListArray.count;
 }
@@ -133,8 +128,10 @@ static NSString *const searchTableID = @"searchTableID";
     if (indexPath.section == 1) {
         return;
     }
+    else{
     [HospitalDetailViewController sharedHospitalDetalVC].hospital  = self.hospitalListArray[indexPath.row];
     [self.navigationController pushViewController:[HospitalDetailViewController sharedHospitalDetalVC] animated:YES];
+    }
     
 }
 

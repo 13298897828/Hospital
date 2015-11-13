@@ -81,9 +81,32 @@ static NSString *const kheaderIdentifier = @"kheaderIdentifierID";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    HospitalCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
-    cell.hospital = self.hosArray[indexPath.row];
-
+ 
+    HospitalCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];  
+    for (int i=0; i<self.hosArray.count; i++) {
+        static int count =0 ;
+        Hospital *hospital = [Hospital new];
+        
+        if (count == self.hosArray.count-1) {
+            
+            for (int i=0; i<self.hosArray.count-1; i++) {
+                static int count2 =0;
+                Hospital *hos = [Hospital new];
+                hos = self.hosArray[count2++];
+                if ([hos.level  rangeOfString:@"二级甲等"].location !=NSNotFound) {
+                    cell.hospital = hos;
+                    return cell;
+                }
+            }
+    }
+        
+        hospital = self.hosArray[count++];
+                 if ([hospital.level  rangeOfString:@"三级甲等"].location !=NSNotFound) {
+                cell.hospital = hospital;
+                return cell;
+            }
+    }
+    
     return cell;
 }
 

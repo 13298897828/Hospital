@@ -35,9 +35,9 @@
              NSLog(@"Httperror: %@%ld", error.localizedDescription, error.code);
          } else {
              NSInteger responseCode = [(NSHTTPURLResponse *)response statusCode];
-
+             NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
              NSLog(@"HttpResponseCode:%ld", responseCode);
-             
+           
              success(data);
              
          }

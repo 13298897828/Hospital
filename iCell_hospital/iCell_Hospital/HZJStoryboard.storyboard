@@ -36,11 +36,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="医院" id="46S-Bl-6eQ">
-                        <barButtonItem key="leftBarButtonItem" image="xiala" id="NOI-BU-xD2">
-                            <connections>
-                                <action selector="nearHospitalAction:" destination="mWf-pu-e4r" id="U6g-9p-Vcc"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" image="xiala" id="NOI-BU-xD2"/>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="VAl-xN-5qk" id="UVp-1G-Clb"/>
@@ -145,15 +141,27 @@
                                     <segment title="特色科室"/>
                                 </segments>
                             </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IJc-6o-CQ3">
+                                <rect key="frame" x="0.0" y="194" width="600" height="406"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SeT-JO-se6" id="HMb-od-iKc"/>
+                                    <outlet property="delegate" destination="SeT-JO-se6" id="HJm-sU-3Ka"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OLp-Po-57W" firstAttribute="leading" secondItem="i6A-e4-k0f" secondAttribute="leading" id="30l-dr-DOh"/>
+                            <constraint firstItem="od5-UK-12u" firstAttribute="top" secondItem="IJc-6o-CQ3" secondAttribute="bottom" id="DWg-tH-2xi"/>
                             <constraint firstAttribute="trailing" secondItem="OLp-Po-57W" secondAttribute="trailing" id="EZv-rk-4bl"/>
                             <constraint firstItem="OLp-Po-57W" firstAttribute="top" secondItem="mhC-ZE-yxm" secondAttribute="bottom" id="EvF-ku-l7r"/>
                             <constraint firstItem="mhC-ZE-yxm" firstAttribute="top" secondItem="O0q-rf-J8D" secondAttribute="bottom" id="Grh-CT-waO"/>
+                            <constraint firstItem="IJc-6o-CQ3" firstAttribute="top" secondItem="OLp-Po-57W" secondAttribute="bottom" id="LB0-R0-7sM"/>
+                            <constraint firstAttribute="trailing" secondItem="IJc-6o-CQ3" secondAttribute="trailing" id="O6Q-Mi-cMl"/>
                             <constraint firstAttribute="trailing" secondItem="mhC-ZE-yxm" secondAttribute="trailing" id="bOm-Bt-Yem"/>
                             <constraint firstItem="mhC-ZE-yxm" firstAttribute="leading" secondItem="i6A-e4-k0f" secondAttribute="leading" id="peI-n6-Izg"/>
+                            <constraint firstItem="IJc-6o-CQ3" firstAttribute="leading" secondItem="i6A-e4-k0f" secondAttribute="leading" id="yJs-Ut-Ahy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="医院详情" id="iKe-dh-g5t"/>
@@ -164,6 +172,7 @@
                         <outlet property="hosMtype" destination="bdN-E8-Brb" id="fYx-Z1-4Si"/>
                         <outlet property="hosNameLabel" destination="6WE-Rh-KEa" id="E4m-yE-6ww"/>
                         <outlet property="segmentControl" destination="OLp-Po-57W" id="JBS-QM-dOE"/>
+                        <outlet property="tableView" destination="IJc-6o-CQ3" id="D4r-BG-BhA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lbk-Ml-eqm" userLabel="First Responder" sceneMemberID="firstResponder"/>

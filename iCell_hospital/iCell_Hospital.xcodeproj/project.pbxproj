@@ -12,11 +12,6 @@
 		1414CF091BF19F010071E2D8 /* MedicineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1414CF081BF19F010071E2D8 /* MedicineDetailViewController.m */; };
 		142EA4AC1BF1DABF00AC3607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142EA4AA1BF1DABF00AC3607 /* Main.storyboard */; };
 		142EA4AF1BF1F34800AC3607 /* MedicineHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4AE1BF1F34800AC3607 /* MedicineHelper.m */; };
-		144D43D11BF4276400124D06 /* EFAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D43D01BF4276400124D06 /* EFAnimationViewController.m */; };
-		144D43D51BF4444800124D06 /* drugstoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D43D41BF4444800124D06 /* drugstoreViewController.m */; };
-		144D43D81BF46B1200124D06 /* ContantMedicineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D43D71BF46B1200124D06 /* ContantMedicineViewController.m */; };
-		144D43DB1BF46F2700124D06 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144D43DA1BF46F2700124D06 /* AMapSearchKit.framework */; };
-		144D43DE1BF4A9E300124D06 /* DrugMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D43DD1BF4A9E300124D06 /* DrugMapViewController.m */; };
 		14B5CFB71BF34C040019893C /* MedicineSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5CFB61BF34C040019893C /* MedicineSearchResultViewController.m */; };
 		14B5CFBB1BF350240019893C /* MedicineCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5CFB91BF350240019893C /* MedicineCollectionViewCell.m */; };
 		14B5CFBC1BF350240019893C /* MedicineCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B5CFBA1BF350240019893C /* MedicineCollectionViewCell.xib */; };
@@ -59,24 +54,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1414CF021BF177CF0071E2D8 /* MedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineViewController.h; path = ../../../Models/MedicineViewController.h; sourceTree = "<group>"; };
-		1414CF031BF177CF0071E2D8 /* MedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineViewController.m; path = ../../../Models/MedicineViewController.m; sourceTree = "<group>"; };
-		1414CF071BF19F010071E2D8 /* MedicineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineDetailViewController.h; path = ../../ViewsConroller/MedicineDetailViewController.h; sourceTree = "<group>"; };
-		1414CF081BF19F010071E2D8 /* MedicineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineDetailViewController.m; path = ../../ViewsConroller/MedicineDetailViewController.m; sourceTree = "<group>"; };
+		1414CF021BF177CF0071E2D8 /* MedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineViewController.h; path = ../../Models/MedicineViewController.h; sourceTree = "<group>"; };
+		1414CF031BF177CF0071E2D8 /* MedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineViewController.m; path = ../../Models/MedicineViewController.m; sourceTree = "<group>"; };
+		1414CF071BF19F010071E2D8 /* MedicineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineDetailViewController.h; sourceTree = "<group>"; };
+		1414CF081BF19F010071E2D8 /* MedicineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineDetailViewController.m; sourceTree = "<group>"; };
 		142EA4AB1BF1DABF00AC3607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		142EA4AD1BF1F34800AC3607 /* MedicineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineHelper.h; sourceTree = "<group>"; };
 		142EA4AE1BF1F34800AC3607 /* MedicineHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineHelper.m; sourceTree = "<group>"; };
-		144D43CF1BF4276400124D06 /* EFAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EFAnimationViewController.h; path = ../Scenes/ViewsConroller/EFAnimationViewController.h; sourceTree = "<group>"; };
-		144D43D01BF4276400124D06 /* EFAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EFAnimationViewController.m; path = ../Scenes/ViewsConroller/EFAnimationViewController.m; sourceTree = "<group>"; };
-		144D43D31BF4444800124D06 /* drugstoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drugstoreViewController.h; path = ../../ViewsConroller/drugstoreViewController.h; sourceTree = "<group>"; };
-		144D43D41BF4444800124D06 /* drugstoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drugstoreViewController.m; path = ../../ViewsConroller/drugstoreViewController.m; sourceTree = "<group>"; };
-		144D43D61BF46B1200124D06 /* ContantMedicineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContantMedicineViewController.h; path = ../../ViewsConroller/ContantMedicineViewController.h; sourceTree = "<group>"; };
-		144D43D71BF46B1200124D06 /* ContantMedicineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContantMedicineViewController.m; path = ../../ViewsConroller/ContantMedicineViewController.m; sourceTree = "<group>"; };
-		144D43DA1BF46F2700124D06 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = ../Scenes/AMapSearchKit.framework; sourceTree = "<group>"; };
-		144D43DC1BF4A9E300124D06 /* DrugMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugMapViewController.h; sourceTree = "<group>"; };
-		144D43DD1BF4A9E300124D06 /* DrugMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugMapViewController.m; sourceTree = "<group>"; };
-		14B5CFB51BF34C040019893C /* MedicineSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineSearchResultViewController.h; path = ../../ViewsConroller/MedicineSearchResultViewController.h; sourceTree = "<group>"; };
-		14B5CFB61BF34C040019893C /* MedicineSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineSearchResultViewController.m; path = ../../ViewsConroller/MedicineSearchResultViewController.m; sourceTree = "<group>"; };
+		14B5CFB51BF34C040019893C /* MedicineSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineSearchResultViewController.h; sourceTree = "<group>"; };
+		14B5CFB61BF34C040019893C /* MedicineSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineSearchResultViewController.m; sourceTree = "<group>"; };
 		14B5CFB81BF350240019893C /* MedicineCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineCollectionViewCell.h; sourceTree = "<group>"; };
 		14B5CFB91BF350240019893C /* MedicineCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineCollectionViewCell.m; sourceTree = "<group>"; };
 		14B5CFBA1BF350240019893C /* MedicineCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -154,7 +140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144D43DB1BF46F2700124D06 /* AMapSearchKit.framework in Frameworks */,
 				0DF45B3631317F2B1FBC210A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,36 +164,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		144D43D21BF427EA00124D06 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				144D43CF1BF4276400124D06 /* EFAnimationViewController.h */,
-				144D43D01BF4276400124D06 /* EFAnimationViewController.m */,
-				144D43DA1BF46F2700124D06 /* AMapSearchKit.framework */,
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
-		144D43D91BF46BB100124D06 /* MedicineViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				1414CF021BF177CF0071E2D8 /* MedicineViewController.h */,
-				1414CF031BF177CF0071E2D8 /* MedicineViewController.m */,
-				14B5CFB51BF34C040019893C /* MedicineSearchResultViewController.h */,
-				14B5CFB61BF34C040019893C /* MedicineSearchResultViewController.m */,
-				1414CF071BF19F010071E2D8 /* MedicineDetailViewController.h */,
-				1414CF081BF19F010071E2D8 /* MedicineDetailViewController.m */,
-				144D43D61BF46B1200124D06 /* ContantMedicineViewController.h */,
-				144D43D71BF46B1200124D06 /* ContantMedicineViewController.m */,
-				144D43D31BF4444800124D06 /* drugstoreViewController.h */,
-				144D43D41BF4444800124D06 /* drugstoreViewController.m */,
-				144D43DC1BF4A9E300124D06 /* DrugMapViewController.h */,
-				144D43DD1BF4A9E300124D06 /* DrugMapViewController.m */,
-			);
-			name = MedicineViewControllers;
-			path = ../View/MedicineViewControllers;
-			sourceTree = "<group>";
-		};
 		14D3B2071BF0636200427765 = {
 			isa = PBXGroup;
 			children = (
@@ -231,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				14E42ABA1BF064F2002EB1FB /* Classes */,
-				C260E8DA1BF1D96900379EBE /* WX.storyboard */,
 				C2EDB4B11BF347A300B09B0F /* HZJStoryboard.storyboard */,
+				C260E8DA1BF1D96900379EBE /* WX.storyboard */,
 				142EA4AA1BF1DABF00AC3607 /* Main.storyboard */,
 				14D3B2221BF0636200427765 /* Assets.xcassets */,
 				14D3B2241BF0636200427765 /* LaunchScreen.storyboard */,
@@ -254,13 +209,13 @@
 		14E42ABA1BF064F2002EB1FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C2FB83401BF0C9A300C0561C /* Vendors */,
 				14E42ABB1BF064F2002EB1FB /* AppDelegate */,
 				14E42ABE1BF064F2002EB1FB /* General */,
 				14E42AC21BF064F2002EB1FB /* Helpers */,
 				14E42AC31BF064F2002EB1FB /* Macro */,
 				14E42AC41BF064F2002EB1FB /* Models */,
 				14E42AC61BF064F2002EB1FB /* Scenes */,
-				144D43D21BF427EA00124D06 /* Vendors */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -394,11 +349,23 @@
 				C260E8C91BF1864C00379EBE /* DiagnoseInfoViewController.m */,
 				C27EB39E1BF2E2C100B3183A /* Diagnose_InterestViewController.h */,
 				C27EB39F1BF2E2C100B3183A /* Diagnose_InterestViewController.m */,
+				1414CF021BF177CF0071E2D8 /* MedicineViewController.h */,
+				1414CF031BF177CF0071E2D8 /* MedicineViewController.m */,
+				14B5CFB51BF34C040019893C /* MedicineSearchResultViewController.h */,
+				14B5CFB61BF34C040019893C /* MedicineSearchResultViewController.m */,
+				1414CF071BF19F010071E2D8 /* MedicineDetailViewController.h */,
+				1414CF081BF19F010071E2D8 /* MedicineDetailViewController.m */,
 				C27EB3AC1BF36C9500B3183A /* Diagnose_SicknessViewController.h */,
 				C27EB3AD1BF36C9500B3183A /* Diagnose_SicknessViewController.m */,
-				144D43D91BF46BB100124D06 /* MedicineViewControllers */,
 			);
 			path = ViewsConroller;
+			sourceTree = "<group>";
+		};
+		C2FB83401BF0C9A300C0561C /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,11 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144D43D11BF4276400124D06 /* EFAnimationViewController.m in Sources */,
 				C2FB83601BF0D3FB00C0561C /* DiagnoseManager.m in Sources */,
 				C260E8CE1BF1869800379EBE /* DiagnoseInfoDetail.m in Sources */,
 				C2FB835D1BF0CC1700C0561C /* Diagnose_Info.m in Sources */,
-				144D43DE1BF4A9E300124D06 /* DrugMapViewController.m in Sources */,
 				C2C640491BF1E8B8006079BC /* HospitalSecondTableViewCell.m in Sources */,
 				1414CF041BF177CF0071E2D8 /* MedicineViewController.m in Sources */,
 				C2B035F21BF0D1E10008D2D1 /* Hospital.m in Sources */,
@@ -551,11 +516,9 @@
 				C260E8D81BF1940C00379EBE /* DiagnoseViewController.m in Sources */,
 				C2C6403F1BF1E464006079BC /* HospitalTableViewCell.m in Sources */,
 				C27EB3A61BF35F6D00B3183A /* Diagnose_Sickness.m in Sources */,
-				144D43D81BF46B1200124D06 /* ContantMedicineViewController.m in Sources */,
 				14D3B2151BF0636200427765 /* main.m in Sources */,
 				C2B2FC831BF0970D003A3EA1 /* HosipitalViewController.m in Sources */,
 				14E42AD31BF06553002EB1FB /* placeHoderViewController.m in Sources */,
-				144D43D51BF4444800124D06 /* drugstoreViewController.m in Sources */,
 				C2B2FC7A1BF09514003A3EA1 /* HospitalMapViewController.m in Sources */,
 				1414CF091BF19F010071E2D8 /* MedicineDetailViewController.m in Sources */,
 				142EA4AF1BF1F34800AC3607 /* MedicineHelper.m in Sources */,
@@ -679,10 +642,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iCell_Hospital/Classes/Scenes",
-				);
 				GCC_PREFIX_HEADER = iCell_Hospital/Classes/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = iCell_Hospital/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -699,10 +658,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iCell_Hospital/Classes/Scenes",
-				);
 				GCC_PREFIX_HEADER = iCell_Hospital/Classes/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = iCell_Hospital/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
