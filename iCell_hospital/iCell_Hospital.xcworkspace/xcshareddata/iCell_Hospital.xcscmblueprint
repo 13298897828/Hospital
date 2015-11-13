@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13C6BC6D285B6110E9B1C7EE59ECE5ECF278BED1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13E5FBBBEF1B0A71F1CC7C29447D65FDDC1A78DA" : 0,
+    "13C6BC6D285B6110E9B1C7EE59ECE5ECF278BED1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA36A9B5-1C38-43A5-9CD2-7F9D02F7A4B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13E5FBBBEF1B0A71F1CC7C29447D65FDDC1A78DA" : "",
+    "13C6BC6D285B6110E9B1C7EE59ECE5ECF278BED1" : "iCell_Hospital%20\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iCell_Hospital",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iCell_hospital\/iCell_Hospital.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/13298897828\/iCell_Hospital.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13C6BC6D285B6110E9B1C7EE59ECE5ECF278BED1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/13298897828\/Hospital.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13E5FBBBEF1B0A71F1CC7C29447D65FDDC1A78DA"
+    }
+  ]
+}

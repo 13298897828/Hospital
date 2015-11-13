@@ -25,8 +25,7 @@
 #define kLocationhttpUrl  @"http://apis.baidu.com/tngou/hospital/location"
 //    特色科室
 #define kFeaturehttpUrl  @"http://apis.baidu.com/tngou/hospital/feature"
-//医院信息
-#define kDetailMessageUrl @"http://apis.baidu.com/tngou/hospital/show"
+
 
 
 
