@@ -100,7 +100,23 @@
 
 
 
+//到‘病状信息页面’
+- (IBAction)sicknessInfoAction:(UIButton *)sender {
+    Diagnose_SicknessViewController *sicknessVC = [Diagnose_SicknessViewController new];
+    [self.navigationController pushViewController:sicknessVC animated:YES];
+}
 
+//到‘检查项目’页面
+- (IBAction)checkAction:(UIButton *)sender {
+}
+
+//到’手术项目‘页面
+- (IBAction)operationAction:(UIButton *)sender {
+}
+
+//到健康菜谱页面
+- (IBAction)healthAction:(UIButton *)sender {
+}
 
 
 
@@ -111,16 +127,5 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)sicknessInfoAction:(UIButton *)sender {
-}
-
-- (IBAction)checkAction:(UIButton *)sender {
-}
-
-- (IBAction)operationAction:(UIButton *)sender {
-}
-
-- (IBAction)healthAction:(UIButton *)sender {
 }
 @end

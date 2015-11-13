@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Diagnose_Sickness.h"
 
+typedef void(^setData)();
+
 @interface Diagnose_SicknessCell : UITableViewCell
 
 @property(nonatomic,strong)Diagnose_Sickness *sickness;
@@ -22,5 +24,7 @@
 
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+
+@property(nonatomic,strong) setData del;
 
 @end
