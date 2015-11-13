@@ -1,0 +1,70 @@
+//
+//  PrefixHeader.pch
+//  iCell_Hospital
+//
+//  Created by 张天琦 on 15/11/9.
+//  Copyright © 2015年 张天琦. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#pragma mark - 三方
+#import "Header.h"
+#import <MAMapKit/MAMapKit.h>
+#import <UIImageView+WebCache.h>
+
+#pragma mark - Hosptial
+//controller
+#import "HosipitalViewController.h"
+#import "HospitalDetailViewController.h"
+#import "HospitalMapViewController.h"
+//module
+#import "Hospital.h"
+#import "HospitalCity&Province.h"
+//自定义cell
+#import "HospitalCollectionViewCell.h"
+#import "HospitalTableViewCell.h"
+#import "HospitalSecondTableViewCell.h"
+#import "HospitalSearchTableViewCell.h"
+//helper
+#import "HospitalHelper.h"
+//View
+#import "HospitalMapView.h"
+
+
+
+#pragma mark - diagnostics(诊断)
+
+#import "DiagnoseInfoDetail.h"
+#import "Diagnose_SicknessCell.h"
+
+#import "DiagnoseManager.h"
+
+#import "DiagnoseInfoViewController.h"
+#import "Diagnose_InterestViewController.h"
+#import "Diagnose_SicknessViewController.h"
+
+#import "Diagnose_Info.h"
+#import "Diagnose_Sickness.h"
+
+
+
+
+
+#pragma mark - Medicine import
+
+#import "Medicine.h"
+#import "MedicineHelper.h"
+#import "MedicineViewController.h"
+#import "MedicineSearchResultViewController.h"
+#import "MedicineDetailViewController.h"
+#import "drugstoreViewController.h"
+#import "ContantMedicineViewController.h"
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */

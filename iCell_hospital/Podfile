@@ -1,0 +1,5 @@
+platform :ios, ‘9.0’
+pod 'AMap2DMap'
+pod 'SDWebImage'
+pod 'SDCycleScrollView'
+pod 'pop', '~> 1.0.8'
