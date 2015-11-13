@@ -39,11 +39,10 @@
 #import "Diagnose_SicknessCell.h"
 
 #import "DiagnoseManager.h"
-
+#import "ContantMedicineViewController.h"
 #import "DiagnoseInfoViewController.h"
 #import "Diagnose_InterestViewController.h"
 #import "Diagnose_SicknessViewController.h"
-
 #import "Diagnose_Info.h"
 #import "Diagnose_Sickness.h"
 
@@ -58,8 +57,8 @@
 #import "MedicineViewController.h"
 #import "MedicineSearchResultViewController.h"
 #import "MedicineDetailViewController.h"
-
-
+#import "DrugMapViewController.h"
+#import "drugstoreViewController.h"
 
 
 
